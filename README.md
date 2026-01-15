@@ -1,11 +1,11 @@
-# 🚁 Logistics Control Tower Dashboard
+#  Logistics Control Tower Dashboard
 
-### 📌 Overview
+###  Overview
 This project is an interactive **Logistics Control Tower** designed to monitor real-time operational health. It processes shipment data to identify bottlenecks, SLA breaches, and financial risks across the First Mile, Middle Mile, and Last Mile.
 
 The solution consists of:
-1.  **`analysis.ipynb`**: A Jupyter Notebook for data cleaning, validation (fixing "Time Travel" errors), and exploratory analysis.
-2.  **`app.py`**: A deployable Streamlit application that serves as the "Action Board" for Operations Managers.
+1.  **`notebook.ipynb`**: A Jupyter Notebook for data cleaning, validation (fixing "Time Travel" errors), and exploratory analysis.
+2.  **`streamlit.py`**: A deployable Streamlit application that serves as the "Action Board" for Operations Managers.
 
 
 ###  How to Run Locally
@@ -22,5 +22,6 @@ Open your terminal or command prompt in this folder and run:
 ```bash
 pip install pandas streamlit plotly openpyxl
    pip install -r requirements.txt
+
 
 
